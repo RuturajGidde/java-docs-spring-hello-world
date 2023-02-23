@@ -13,7 +13,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@RequestMapping("/message")
+	@Get("/message")
 	public String getmessage() {
 		return "welcome Hello World!";
 	}
