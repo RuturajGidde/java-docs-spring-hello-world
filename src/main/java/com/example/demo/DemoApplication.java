@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping("/message")
 	public String getmessage() {
-		return "Hello World!";
+		return "welcome Hello World!";
 	}
 }
